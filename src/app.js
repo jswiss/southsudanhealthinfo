@@ -3,7 +3,7 @@ export class Welcome {
   firstName = 'Jon';
   lastName = 'Doe';
 
-  getFullName() {
+  get fullName() {
     return `${this.firstName} ${this.lastName}`;
   }
 
