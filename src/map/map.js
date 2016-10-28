@@ -1,3 +1,7 @@
+export class Map {
+  heading = 'this is where the map lives';
+}
+
 var map;
 
 function init() {
